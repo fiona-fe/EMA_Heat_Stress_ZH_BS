@@ -1,11 +1,12 @@
 
 
-
-# comment: The structure is copied from the switchdrive folders and not changed. Therefore, the some of the old folder names might be confusing.
+### Code and data to run EMA simulations and visualisation for future heat stress in Zurich and Basel
+#### comment: The structure is copied from the switchdrive folders and not changed. Therefore, the some of the old folder names might be confusing.
 
 Folder structure:
 	•	ema_case_Basel_HDNs: data folder with input data, simulations, figures
-	⁃	case2_Base = folder for projections 
+ 
+	⁃	case2_Basel = folder for projections 
 	⁃	setup3 > input = input for EMA
 	⁃	setup3_bernard_136_30 = results from the runs using 136X, 30L and the equation by Bernard
 	⁃	setup3_sensitivity_analysis = consists of all input data for adaptation measures / city-centre to measurement station correction, results (always with 136_30_bernard, threshold range = 26-30)
