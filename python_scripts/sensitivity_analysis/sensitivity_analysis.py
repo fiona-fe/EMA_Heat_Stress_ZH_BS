@@ -672,7 +672,7 @@ fig1.savefig(os.path.join(rootOut, 'norm_vs_Tmp_1_0_vs_Tmp_3_0_vs_Tmp_5_0_ave_NE
 fig3, axs = plt.subplots(figsize=(15,5))
 
 data1 = [df_final_ema_f1_day_norm, df_final_ema_f1_day_Slr_15_50, df_final_ema_f1_day_Wnd_1, df_final_ema_f1_day_Tmp_1_0, df_final_ema_f2_day_norm, df_final_ema_f2_day_Slr_15_50, df_final_ema_f2_day_Wnd_1, df_final_ema_f2_day_Tmp_1_0, df_final_ema_f3_day_norm, df_final_ema_f3_day_Slr_15_50, df_final_ema_f3_day_Wnd_1, df_final_ema_f3_day_Tmp_1_0]
-labels = ['Baseline', 'Glr: 15_50', 'Wnd: +1', 'Tmp: +3°C', 'Baseline', 'Glr: 15_50', 'Wnd: +1', 'Tmp: +3°C', 'Baseline', 'Glr: 15_50', 'Wnd +1', 'Tmp: +3°C']
+labels = ['Baseline', 'Glr: 15_50', 'Wnd: +1', 'Tmp: -3°C', 'Baseline', 'Glr: 15_50', 'Wnd: +1', 'Tmp: -3°C', 'Baseline', 'Glr: 15_50', 'Wnd +1', 'Tmp: -3°C']
 flierprops = {'marker': 'o', 'markersize': 3, 'markeredgewidth': 0.5}
 box = axs.boxplot(data1, vert=True, patch_artist=True, labels=labels, flierprops=flierprops)
 plt.xticks(fontsize=8, rotation=45)
