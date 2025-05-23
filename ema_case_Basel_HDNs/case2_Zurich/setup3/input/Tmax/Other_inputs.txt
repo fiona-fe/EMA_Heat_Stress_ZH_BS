@@ -1,4 +1,0 @@
-Tmax_weight
-1
-Tmin_weight
-1
