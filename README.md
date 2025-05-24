@@ -1,6 +1,6 @@
 
 
-### Code and data to run EMA simulations and visualisation for future heat stress in Zurich and Basel
+### Code to run EMA simulations and visualization for future heat stress indicators in Zurich and Basel
 
 - all data used for this study are publicly accessible via the Internet (CH2018 Project Team, 2018):
   
